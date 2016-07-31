@@ -6,15 +6,16 @@
 		var necro = new NecroIO("wss://localhost:14251");
 		necro.onconnected = function()
 		{
-			necro.RequestPokemon(function(data) {alert(data.Command)})
-		
+		    // Request specific data into a call back
+			necro.RequestPokemon(function(data){
+				alert(data.Command)
+			});
 		};
 		
+		// The on updates are from Necro's push to all session information.
 		necro.onPositionUpdate = function(data)
 		{
-			document.write(data.Lattitude);
-		
-		
+			document.write(data.Latitude);
 		};
 	</script>
 </head>

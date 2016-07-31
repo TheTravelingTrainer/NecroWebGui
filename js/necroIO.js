@@ -34,7 +34,7 @@ NecroIO.prototype.handleMessage = function(data)
 		}
 		else if(result.$type.indexOf("Event.UpdatePositionEvent, ") > 0)
 		{
-			// update position push from server, we'll 
+			// update position push from server, we'll keep polling these.
 				this.onPositionUpdate(result);
 		}
 	
