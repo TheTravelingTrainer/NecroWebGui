@@ -1,0 +1,13 @@
+#pokelistholder {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:5px;
+	background:white;
+	padding:0 10px 10px 10px;
+}
+
+.pokemon 
+{
+	float:left;
+}
