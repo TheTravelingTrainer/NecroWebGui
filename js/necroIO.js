@@ -25,6 +25,7 @@ NecroIO.prototype.onPokeStopListEvent = function() {};
 NecroIO.prototype.onPokeStopTargetEvent = function() {};
 NecroIO.prototype.onPokeStopUsedEvent = function() {};
 NecroIO.prototype.onPokemonCapturedEvent = function() {};
+NecroIO.prototype.onPokemonCapturedEvent = function() {};
 NecroIO.prototype.handleMessage = function(data)
 {
 		var result = JSON.parse(data.data);
@@ -58,7 +59,7 @@ NecroIO.prototype.handleMessage = function(data)
 		}			
 		else 
 		{
-			this.unhandledMessage(result);
+			this.unhandledEvent(result);
 		}	
 	
 }
