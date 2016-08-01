@@ -81,7 +81,7 @@ NecroIO.prototype.RequestEggs = function(callback)
 }
 NecroIO.prototype.RequestItems = function(callback)
 {
-	this.sendMessage("GetItemList",{},callback);
+	this.sendMessage("GetItemsList",{},callback);
 }
 NecroIO.prototype.RequestTrainerProfile = function(callback)
 {

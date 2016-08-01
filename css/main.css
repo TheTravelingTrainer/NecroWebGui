@@ -1,4 +1,5 @@
-#pokelistholder {
+#pokelistholder 
+{
 	position:fixed;
 	bottom:0;
 	width:100%;
@@ -11,3 +12,46 @@
 {
 	float:left;
 }
+
+.itemHolder 
+{
+	width:150px;
+	float:left;
+	text-align:center;
+}
+
+.itemHolder img
+{ 
+	height: auto;
+	width:100%;
+}
+.eggHolder 
+{
+	width:150px;
+	float:left;
+	text-align:center;
+}
+
+.eggHolder img
+{ 
+	height: auto;
+	width:100%;
+}
+.statItem 
+{
+	float:left; 
+	padding:5px;
+}
+.statItem .statProperty 
+{
+	font-weight:bold;
+	display:inline
+}
+.statItem .statValue 
+{
+	display:inline; 
+	padding-left:5px
+}
+
+
+
